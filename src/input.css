@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.section-title {
+		@apply text-white bg-black text-3xl font-bold;
+	}
+}
+
+@layer base {
+	@font-face {
+		font-family: Yekan;
+		src: url("../fonts/woff/IRANYekanX-Regular.woff") format("truetype");
+	}
+	@font-face {
+		font-family: YekanBold;
+		src: url("../fonts/woff/IRANYekanX-Bold.woff") format("truetype");
+	}
+	/* body {
+		font-family: Yekan;
+	} */
+}
